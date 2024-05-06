@@ -1,0 +1,1 @@
+console.log("Test message"),document.addEventListener("DOMContentLoaded",(function(){document.querySelectorAll(".menu-item:has(ul) > a").forEach((function(e){e.addEventListener("click",(function(e){var t=this.nextElementSibling;t&&"ul"===t.tagName.toLowerCase()&&(e.preventDefault(),t.style.display="block"===t.style.display?"none":"block")}))}))}));
